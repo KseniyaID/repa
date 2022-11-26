@@ -108,3 +108,79 @@
 .menu-active {
     background-color: #FF3F40;
 }
+
+/*Main*/
+/*Intro*/
+.intro-wrapper {
+    display: block;
+    width: 100%;
+    padding: 102px 0 110px;
+    background-color: #F6F2F2;
+}
+
+.intro {
+    display: flex;
+    width: 1249px;
+    margin: 0 auto;   
+    justify-content: space-between;
+}
+
+.intro-info {
+    max-width: 595px;
+
+}
+
+.intro-heading {
+    font-family: 'Open Sans';
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 19px;
+    margin-top: -15px;
+    }
+    /* Normal 800 я не смогла скачать, остановилась на Italic 800 для данного заголовка.
+    Мы же используем его единожды, если критично - исправлю.:)*/
+
+.intro-special {
+    letter-spacing: 6px;
+}
+
+.intro-text {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px; 
+    margin: 0;
+    margin-bottom: 58px;
+}
+
+.intro-action {
+    display: flex;
+    width: 227px;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    min-height: 55px;
+    justify-content: center;
+    align-items: center;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans';
+    font-size: 18px;
+    line-height: 34px;
+    font-weight: 700;
+    font-style: normal;
+    background-color: #FF2D2D;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.intro-video {
+    width: 551px;
+    height: 356px;
+    object-fit: cover;
+    box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
+}
